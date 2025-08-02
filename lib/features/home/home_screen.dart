@@ -1,4 +1,3 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:snackish/common/category_chip.dart';
 import 'package:snackish/common/main_snack_card.dart';
@@ -9,9 +8,6 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final screenHeight = MediaQuery.of(context).size.height;
-    final screenWidth = MediaQuery.of(context).size.width;
-
     return Scaffold(
       body: Stack(
         children: [
@@ -72,9 +68,7 @@ class HomeScreen extends StatelessWidget {
                         price: "₳ 13.99",
                         imagePath: 'assets/images/burger.png',
                         rating: '4.8',
-                        onPressed: () {
-                          print("Add to order gedrückt!");
-                        },
+                        onPressed: () {},
                       ),
 
                       const SizedBox(height: 55),
