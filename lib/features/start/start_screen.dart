@@ -122,8 +122,8 @@ class StartScreen extends StatelessWidget {
                                   color: const Color(
                                     0xFFEA71C5,
                                   ).withAlpha((0.5 * 255).round()),
-                                  blurRadius: 90,
-                                  offset: const Offset(0, 30),
+                                  blurRadius: 20,
+                                  offset: const Offset(0, 10),
                                   spreadRadius: 3.0,
                                 ),
                                 BoxShadow(
