@@ -67,7 +67,7 @@ class MainSnackCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 60),
                 GestureDetector(
-                  onTap: () {},
+                  onTap: onPressed,
                   child: Container(
                     padding: const EdgeInsets.symmetric(
                       horizontal: 8,
